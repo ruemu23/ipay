@@ -1,0 +1,514 @@
+body {
+
+    background-color: white;
+    background-image: url(/images/black1.avif);
+    background-size: cover;
+    
+  } 
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ensure the container takes up at least the full viewport height */
+    justify-content: space-between;
+  }
+  .bottom-div {
+    margin-top: auto; /* push the div to the bottom of the container */
+  }
+  
+  .check1{
+    display: flex;
+    border: 0px solid red;
+    height: 60px;
+    justify-content: space-between;
+  }
+
+  .mylogo{
+    height: 100%;
+    width: 40%;
+    background-image: url(/images/default-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    border: 0px solid red;
+    border: 0px solid blue;
+    
+}
+.topw2{
+  display: flex;
+  border: 0px solid green;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+
+}
+.bell{
+    width: 30%;  
+    color: white;
+    font-size: 24px; 
+}
+.etopw2{
+  display: flex;
+  border: 0px solid green;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.flags{
+  border: 0px solid green;
+ height: 50%;
+  width: 60%;
+  background-image: url(/images/nigeria-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+  }
+  .dropme{
+      border: 0px solid red;
+      height: 50%;
+      width: 40%;
+       color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px; 
+  }
+  body{
+    position: relative;
+    
+  } 
+  #hiders{
+    display: none;
+ 
+  } 
+  .hide{
+    display: none;
+  }
+  #brownmenu{
+  position: fixed;
+  top:  20%;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  gap: 10px;
+ 
+   }
+   .emer{
+    height: 6%;
+   }
+  .itm1{
+    display: flex;
+    align-items: center;
+    height: 3%;
+border: 0px solid red;
+color: white;
+font-size: 13px;
+  }
+.itm2, .itm3, .itm4{
+  display: flex;
+  gap: 10px;
+  height: 19%;
+  border: 0px solid blue; 
+  }
+  .itm2 > a,
+.itm3 > a,
+.itm4 > a {
+  width: 33.3%;
+  border: 1px solid rgba(150, 147, 147, 0.942);
+  text-decoration: none;
+  background-color: rgb(30, 28, 28);
+ 
+}
+
+.blk1{
+ display: flex;
+ flex-direction: column;
+ align-items:  center;
+ justify-content: center;
+ gap: 10px;
+ border: 0px solid red;
+}
+.iflag1{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/nigeria-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag2{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/kenya-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag3{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/zambia-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag4{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/south-africa-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag5{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/guinea-flag-png-xl.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag6{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/cameroon-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag7{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/mozambique.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag8{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/sierra-leone-flag-png-large.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag9{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/rwanda.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.iflag10{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: url(/images/english.png);
+  background-size: cover;
+  background-position: center center; 
+}
+.itext{
+  color: white;
+}
+  .itm5{
+    display: flex;
+    align-items: center;
+    height: 3%;
+border: 0px solid red;
+color: white;
+font-size: 13px;
+  }
+  .itm6{
+    display: flex;
+    gap: 10px;
+    height: 19%;
+    border: 0px solid blue; 
+  }
+  .itm6 > a {
+    width: 33.3%;
+    border: 1px solid rgba(150, 147, 147, 0.942);
+   
+  }
+  .itm7{
+    display: flex;
+  padding: 6px 6px 6px 6px;
+    height: 12%;
+   
+    border: 0px solid yellow;
+  }
+
+
+  .omenu{
+  height: 85%;
+  border: 0px solid blue;
+ }
+  
+  
+  .mycounhead{
+    color: white;
+    font-size: 14px;
+  }
+
+.fordme{
+  display: flex;
+height: 25%;
+width: 100%;
+border: 0px solid red;
+}
+
+.fordme > a{
+  height: 31.5%;
+  width: 31.5%;
+  border: 0px solid blue;
+
+}
+
+
+  .cmenu{
+  display: flex;
+  height: 15%;
+  width: 100%;
+  border: 0px solid yellow;
+  
+  }
+  
+  
+  
+  .center {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+    border: 0px solid black;
+    margin: auto auto;
+  
+    padding: 10px;
+  
+     box-sizing: border-box;
+  }
+    
+   
+        
+         .byes{
+          display: block;
+         font-size: 16px;
+         border: 0px;
+          box-sizing: border-box;
+          width: 100%;
+          padding: 14px 30px 14px 30px;
+      
+          background-color: #f16c25f0;
+         color: white;
+         border-radius: 10px;
+        
+         
+        }
+       
+        
+        label {
+          display: block;
+          font-family: inherit;
+          font-size: 14px;
+         
+        
+        
+          width: 100%;
+  
+         
+          margin-bottom: 13px;
+            
+        }
+          input[type="text"],input[type="email"],input[type="password"]{
+          display: block;
+          font-family: inherit;
+          font-size: 100%;
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          width: 100%;
+          
+         padding: 10px;
+         line-height: 58px;
+          height: 40px;
+       
+          border-radius: 5px; 
+          border: 1px solid gray;
+      
+        }
+        
+      
+  input,
+  input::placeholder {
+      font-size: 16px;
+       
+  }
+     input:hover{
+      outline: none;
+      border-color:  #0059b3;
+  }
+  input:focus{
+      outline: none;
+      border-color:  #0059b3;
+  }
+     
+     
+  
+  .section3{
+    height: 12%;
+    border: 0px solid red; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(26, 25, 25, 0.898);
+
+   
+}
+
+.section3 > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icons{
+    font-size: 20px;
+}
+.texter{
+    font-size: 14px;  
+}
+.rep{
+    color:rgba(0, 132, 255, 0.757)!important;
+}
+    /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+  @media screen and (min-width: 1024px){
+  /*Style*/
+  .center
+      {
+        width: 80%;
+      }
+  
+  
+  
+  }
+  
+  /*###Tablet(medium)###*/
+  @media screen and (min-width : 768px) and (max-width : 1023px){
+  /*Style*/
+  .center
+      {
+        width: 100%;
+      }
+  }
+  
+  /*### Smartphones (portrait and landscape)(small)### */
+  @media screen and (min-width : 0px) and (max-width : 767px){
+  /*Style*/
+  .center
+      {
+        width: 100%;
+      }
+  } 
+  
+  .textcolor{
+      color: black;
+  }
+  .downme{
+       margin-bottom: 4px;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  
+ 
+  
+
+  .form-group .form-control {
+      padding-left: 1.375rem;
+  }
+  .form-group{
+    position:relative;
+  }
+  .form-group .form-control-icon {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2.375rem;
+      height: 1.375rem;
+      line-height: 1.375rem;
+      text-align: center;
+     
+      color: #aaa;
+      right:2px;
+      top: 15px;
+      cursor: pointer;
+     
+  }
+  .bsa:hover{
+       position: absolute;
+     display: block;
+  
+         border: 0px;
+          box-sizing: border-box;
+          width: 13%;
+          
+       
+         background-color: #cce6ff;  
+         color: #0059b3;;
+         border-radius: 8px;
+         margin: auto;  
+        
+         
+  }
+  
+ 
+  
+  .prome{
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    
+  }
+  .welc{
+    color: rgba(255, 255, 255, 0.594);
+  }
+  .paddme{
+      padding: 38px 12px 14px 12px;
+      height: 50px;
+  }
+  .labme{
+     font-size: 16px;
+  }
+  
+  .paddmes{
+      padding: 38px 12px 14px 12px !important;
+      height: 50px;
+  }
+  .fogme{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      text-align: right;
+  }
+  .linkers{
+    text-decoration: none;
+  }
+  .centme{
+    text-align: center;
+    margin-top: 10px;
+  }
+  

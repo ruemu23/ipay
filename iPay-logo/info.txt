@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: InknutAntiqua-Black
+font link: https://fonts.google.com/specimen/Inknut+Antiqua
+font author: Claus Eggers Sørensen
+font author site: https://forthehearts.net/
+
+
+icon designer: Alfredo @ IconsAlfredo.us
+icon designer link: /AlfredoCreates
+        
+{"bg":"#FCF2F7","icon-gradient-0":"#D418EA","icon-gradient-1":"#ECD062","font":"#321926","slogan":"#462d3a"}
+      

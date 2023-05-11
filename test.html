@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>iPay</title>
+     <link rel="icon" type="image/x-icon" href="https://botaworld.com/boostrap/form/images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="/css/test.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8efdcbbe06.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+<body>
+  
+  <div class="page-container">
+  
+  <!-- <div class="sugar"> -->
+  
+  <div class="check1 sticky">
+    <div class="icc"><i class="fa fa-arrow-left"></i></div>
+    <div class="prof">Change PIN</div>
+   <div class="al"></div>
+  </div> 
+
+  <div class="check2">
+    
+   <div class="entr">Enter your transaction PIN</div>
+   <div class="dig">4-digits</div>
+   <div class="input-row form-group">
+    <input type="text" class="circular-input form-control" maxlength="1" tabindex="1" oninput="moveToNextField(this)">
+    <input type="text" class="circular-input form-control" maxlength="1" tabindex="2" oninput="moveToNextField(this)">
+    <input type="text" class="circular-input form-control" maxlength="1" tabindex="3" oninput="moveToNextField(this)">
+    <input type="text" class="circular-input form-control" maxlength="1" tabindex="4" oninput="moveToNextField(this)">
+   </div>
+
+   <div class="starter">Start over</div>
+   <div class="fgc"><span class="yell">Forgot PIN?</span><a href="#" class="myrest">Reset here</a></div>
+  <div class="keyboard-container">
+   
+    <div class="rowme">
+      <button class="keyboard-button" data-value="1">1</button>
+      <button class="keyboard-button" data-value="2">2</button>
+      <button class="keyboard-button" data-value="3">3</button>
+    </div>
+    
+    <div class="rowme">
+      <button class="keyboard-button" data-value="4">4</button>
+      <button class="keyboard-button" data-value="5">5</button>
+      <button class="keyboard-button" data-value="6">6</button>
+    </div>
+   
+    <div class="rowme">
+      <button class="keyboard-button" data-value="7">7</button>
+      <button class="keyboard-button" data-value="8">8</button>
+      <button class="keyboard-button" data-value="9">9</button>
+    </div>
+
+    <div class="rowme">
+      <button class="keyboard-button hidden"></button>
+      <button class="keyboard-button" data-value="0">0</button>
+      <button class="keyboard-button delete-button" data-value="backspace">9</button>
+    </div>
+   
+    
+
+  </div>
+   
+
+
+
+
+
+
+     
+
+  </div>
+     
+
+  
+  
+  
+  
+  
+  
+     
+     
+     
+     <div class="section3 fixed-bottom">
+      <a href="#" class="rep"><span class="icons"><i class="fa-solid fa-house"></i></span><span class="texter">Home</span></a>
+      <a href="#"><span class="icons"><i class="fa-solid fa-bars"></i></span><span class="texter">Menu</span></a>
+      <a href="#"><span class="icons"><i class="fa-solid fa-qrcode"></i></span><span class="texter">Scan</span></a>
+      <a href="#"><span class="icons"><i class="fa-solid fa-headset"></i></span><span class="texter">Support</span></a>
+      <a href="#"><span class="icons"><i class="fa-regular fa-user"></i></span><span class="texter">Profile</span></a>
+     </div>
+    
+    <!-- </div> -->
+  
+   
+
+
+
+
+
+     <script>
+      function moveToNextField(inputField) {
+  if (inputField.value.length >= inputField.maxLength) {
+    inputField.nextElementSibling.focus();
+  }
+}
+
+const inputFields = document.querySelectorAll('.circular-input');
+  const keyboardButtons = document.querySelectorAll('.keyboard-button');
+  keyboardButtons.forEach((button) => {
+    const buttonValue = button.getAttribute('data-value');
+    if (buttonValue === 'backspace') {
+      button.innerHTML = '<i class="fa-solid fa-delete-left"></i>';
+    } else {
+      button.textContent = buttonValue;
+    }
+    button.addEventListener('click', (event) => {
+      if (buttonValue === 'backspace') { // handle delete button
+        for (let i = inputFields.length - 1; i >= 0; i--) {
+          if (inputFields[i].value !== '') {
+            inputFields[i].value = '';
+            inputFields[i].focus();
+            break;
+          }
+        }
+        event.preventDefault();
+      } else { // handle number buttons
+        for (let i = 0; i < inputFields.length; i++) {
+          if (inputFields[i].value === '') {
+            inputFields[i].value = buttonValue;
+            inputFields[i].focus();
+            break;
+          }
+        }
+      }
+    });
+  });
+
+     </script>
+   
+
+     <script>
+      document.addEventListener('touchstart', function(event) {
+    if (event.target.tagName === 'input' || event.target.tagName === 'textarea') {
+        event.preventDefault();
+    }
+}, false);
+     </script>
+   
+   
+ 
+
+    </body>
+    
+    </html>

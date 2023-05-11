@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background-color: black;
+    background-image: url(/images/black1.avif);
+    background-size: cover;
+    
+  } 
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    height: 90rem; /* ensure the container takes up at least the full viewport height */
+    /* justify-content: space-between; */
+  }
+  .bottom-div {
+    margin-top: auto; /* push the div to the bottom of the container */
+  }
+  .sugar{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .check1{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+
+    border: 0px solid red;
+    height: 150px;
+    /* background-color: black; */
+    background-color: rgb(6, 5, 5, 1);
+   color: white;
+   
+   z-index: 4;
+  
+  padding: 10px;
+ 
+   
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+
+  .myava{
+    font-size: 12px;
+  }
+ .mybal{
+    font-size: 20px;
+ }
+
+
+ .boxy{
+    display: flex;
+    gap: 5px;
+    height: 100px;
+    border: 0px solid blue;
+    width: 100%;
+    align-items: center;
+
+  }
+  .boxy > a {
+    height: 75%;
+    width: 33.3%;
+    border: 0px solid rgba(150, 147, 147, 0.942);
+    text-decoration: none;
+    background-color: rgba(66, 64, 64, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+ justify-content: center;
+ border-radius: 5px;
+  }
+ 
+  .dof{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+ @media screen and (min-width : 0px) and (max-width : 320px){
+    /*Style*/
+    .prof{
+        display: flex;
+        justify-content: center;
+      
+        border: 0px solid red;
+       width: 33.34%;
+       font-size: 14px;
+      }
+     .jof{
+       
+       font-size: 14px;
+       display: flex;
+       justify-content: left;
+    padding: 10px;
+    border: 0px solid red;
+    width: 33.34%;
+     }
+     .al{
+        border: 0px solid red;
+        width: 33.34%;  
+     }
+    } 
+ 
+  .section3{
+    height: 12vh;
+    border: 0px solid red; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(26, 25, 25, 1);
+    
+    z-index: 4;
+   
+}
+
+.section3 > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icons{
+    font-size: 20px;
+}
+.texter{
+    font-size: 14px;  
+}
+.rep{
+    color:rgba(0, 132, 255, 0.757)!important;
+}
+    /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+  @media screen and (min-width: 1024px){
+  /*Style*/
+  .center
+      {
+        width: 80%;
+      }
+  
+  
+  
+  }
+  
+  /*###Tablet(medium)###*/
+  @media screen and (min-width : 768px) and (max-width : 1023px){
+  /*Style*/
+  .center
+      {
+        width: 100%;
+      }
+  }
+  
+  /*### Smartphones (portrait and landscape)(small)### */
+  @media screen and (min-width : 0px) and (max-width : 767px){
+  /*Style*/
+  .center
+      {
+        width: 100%;
+      }
+  } 
+  
+  .textcolor{
+      color: black;
+  }
+  .downme{
+       margin-bottom: 4px;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  
+ 
+  
+
+  
+ 
+  
+  .accordion {
+    border: none;
+    box-sizing: border-box;
+
+    border: none;
+  }
+  .accordion-item {
+    border: none;
+   
+  }
+
+  /* Set the default state of the accordion */
+.accordion-item .accordion-content {
+  display: none;
+  height: 0;
+}
+
+/* Add styles for the accordion header */
+.accordion-header {
+  background-color: rgba(17, 14, 14, 0.885);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 0px solid rgba(17, 14, 14, 0.885);
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.4s ease;
+  
+}
+
+
+
+/* Add hover styles for the accordion header */
+.accordion-header:hover {
+  background-color:  rgba(17, 14, 14, 0.885);
+}
+
+/* Add active styles for the accordion header */
+.accordion-header.active {
+  background-color:  rgba(17, 14, 14, 0.885);
+}
+
+/* Add styles for the accordion content */
+.accordion-content {
+  padding: 18px;
+  background-color:  rgba(17, 14, 14, 0.885);
+  color: white;
+  transition: max-height 0.4s ease;
+  max-height: 0;
+
+}
+
+/* Add active styles for the accordion content */
+.accordion-item.active .accordion-content {
+    display: block;
+    height: auto; /* allow the height to expand as needed */
+    transition: height 0.4s ease; /* add transition effect for smooth animation */
+    max-height: 1000px; /* set the same max-height value as the inactive state */
+}
+/* Add a collapse icon to the right of the accordion header */
+.accordion-header::after {
+ content: "\f105"; /* Unicode character for the Font Awesome right-angle icon */
+  font-family: "FontAwesome"; /* Set the font family for the icon */
+  font-size: 0.8em;
+  float: right;
+  margin-right: 10px;
+  transition: transform 0.4s ease; 
+  border: 0px solid red;
+  border-radius: 50%;
+  width: 20px; /* adjust the width to be equal to height */
+  height: 20px; /* adjust the height to be equal to width */
+  padding: 5px; /* adjust the padding to fit properly within the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(125, 131, 125);
+   color: blue;
+}
+
+
+/* Add a rotate animation to the collapse icon when the accordion is active */
+.accordion-header.active::after {
+  transform: rotate(90deg);
+}
+
+
+/* Add a rotate animation to the collapse icon when the accordion is active */
+.accordion-header.rotate::after {
+  transform: rotate(90deg);
+}
+
+
+
+.boxy1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+    height: 100px;
+    border: 0px solid blue;
+    width: 100%;
+    align-items: center;
+
+  }
+  .boxy1 > a {
+    height: 80px;
+    width: 25%;
+    border: 0px solid rgba(150, 147, 147, 0.942);
+    text-decoration: none;
+    background-color: rgba(16, 15, 15, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+ justify-content: center;
+  }
+ 
+  .dof1{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
