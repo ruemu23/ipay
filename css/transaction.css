@@ -24,12 +24,12 @@
    flex-direction: column;
   
     border-bottom: 0px solid white;
-    height: 40px;
+   
     background-color: rgb(49, 46, 46);
    color: white;
    z-index: 4;
    margin: 0;
-   /* padding-right: 15rem; */
+ 
   }
   .check19{
     display: flex;
@@ -39,7 +39,7 @@
   
     background-color: rgb(49, 46, 46);
    color: white;
- 
+ padding: 10px;
   }
   .icc{
     font-size: 20px;
@@ -159,6 +159,10 @@
     border-radius: 50%;
     background-color: #04040561;
     color: rgb(0, 94, 255);
+}
+
+.my1, .my3 > i{
+  font-size: 25px;
 }
 
 .mycolor{

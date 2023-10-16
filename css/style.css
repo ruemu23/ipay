@@ -1,42 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgba(89, 176, 176, 0.734)!important;
+
+body {
+    background-color: rgba(89, 176, 176, 0.734) !important;
     background-image: url(/images/blackme.jpeg);
-   background-size: cover;
+    background-size: cover;
 }
-.mycontainer{
+
+.mycontainer {
     display: flex;
     flex-wrap: wrap;
-  align-content: space-between;
+    align-content: space-between;
     width: 100vw;
     height: 100vh;
     border: 0px solid red;
 }
 
-.topme{
+.topme {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 15vh;
-   border: 0px solid black;
-   color:white;
-  
+    border: 0px solid black;
+    color: white;
+
 }
-.mylogo{
+
+.mylogo {
     height: 60%;
     width: 50%;
     background-image: url(/images/default-removebg-preview.png);
     background-size: cover;
     background-position: center center;
     border: 0px solid red;
-    
+
 }
-.wrapme{
+
+.wrapme {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,14 +50,17 @@ body{
     height: 30vh;
     border: 0px solid black;
 }
-.welc{
+
+.welc {
     border: 0px solid black;
-    color: white; 
+    color: white;
 }
-.contbtn{
+
+.contbtn {
     width: 90%;
-    border: 0px solid black;   
+    border: 0px solid black;
 }
+
 .mybutton {
     background-color: #f16c25f0;
     border: none;
@@ -63,43 +70,45 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-  
-    cursor: pointer!important;
+
+    cursor: pointer !important;
     width: 100%;
     border-radius: 10px;
-  }
+}
 
 /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
-@media screen and (min-width: 1024px){
-    .topme{
-     
+@media screen and (min-width: 1024px) {
+    .topme {
+
         width: 100%;
         height: 30vh;
-     
-      
+
+
     }
-    .mylogo{
+
+    .mylogo {
         height: 100%;
         width: 50%;
-       
-        
+
+
     }
-   
+
 }
 
 /*###Tablet(medium)###*/
-@media screen and (min-width : 768px) and (max-width : 1023px){
-    .topme{
-     
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .topme {
+
         width: 100%;
         height: 20vh;
-     
-      
+
+
     }
-    .mylogo{
+
+    .mylogo {
         height: 100%;
         width: 50%;
-       
-        
+
+
     }
 }

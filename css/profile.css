@@ -115,7 +115,7 @@ body {
    border: 0px solid blue;
    background-color: rgb(41, 40, 40);
    font-size: 2rem;
-   color: blue;
+   color: rgba(0, 255, 217, 0.678);
   }
   .sme{
     display: flex;

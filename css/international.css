@@ -24,12 +24,12 @@
    flex-direction: column;
   
     border-bottom: 0px solid white;
-    height: 40px;
+    
     background-color: rgb(49, 46, 46);
    color: white;
    z-index: 4;
    margin: 0;
-   /* padding-right: 15rem; */
+
   }
   .check19{
     display: flex;
@@ -39,6 +39,7 @@
   
     background-color: rgb(49, 46, 46);
    color: white;
+   padding: 10px;
  
   }
   .icc{

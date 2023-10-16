@@ -571,9 +571,6 @@ font-size: 15px;;
   }
   .accordion {
     border: none;
-    box-sizing: border-box;
-
-    border: none;
   }
   .accordion-item {
     border: none;
