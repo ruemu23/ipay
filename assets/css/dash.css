@@ -1,7 +1,13 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
 
   background-color: white;
-  background-image: url(/images/blackme.jpeg);
+  background-image: url(../images/blackme.jpeg);
   background-size: cover;
 
 }
@@ -36,7 +42,7 @@ body {
 
 .mylogo {
 
-  background-image: url(/images/default-removebg-preview.png);
+  background-image: url(../images/default-removebg-preview.png);
   background-size: cover;
   background-position: center center;
   border: 0px solid blue;
@@ -137,7 +143,7 @@ body {
 .advert {
   height: 27vh;
   border: 0px solid blue;
-  /* background-image: url(/images/payment_options.webp); */
+
 
   border-radius: 10px;
 }

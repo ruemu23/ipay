@@ -7,22 +7,18 @@
 body {
 
   background-color: black;
-  background-image: url(/images/blackme.jpeg);
+  background-image: url(../images/blackme.jpeg);
   background-size: cover;
 
 }
 
 .page-container {
-  display: flex;
-  flex-direction: column;
- 
-  /* ensure the container takes up at least the full viewport height */
-  /* justify-content: space-between; */
+ flex: 1;
+
 }
 
 .bottom-div {
   margin-top: auto;
-  /* push the div to the bottom of the container */
 }
 
 .sugar {
@@ -34,17 +30,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
   border: 0px solid red;
-  height: 150px;
-  /* background-color: black; */
+ 
   background-color: rgb(6, 5, 5, 1);
   color: white;
 
   z-index: 4;
 
-  padding: 10px;
+
 
 
 }
@@ -72,8 +65,8 @@ body {
   justify-content: space-between;
 }
 
-.boxy>a {
-  flex: 1;
+.boxy > a {
+
   border: 0px solid rgba(150, 147, 147, 0.942);
   text-decoration: none;
   background-color: rgba(66, 64, 64, 0.85);
@@ -83,7 +76,7 @@ body {
   justify-content: center;
   border-radius: 5px;
   padding: 20px;
-  width: 25%;
+  width: 33.33%;
   /* Each anchor element takes 25% of the container width */
 }
 
@@ -94,33 +87,7 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width : 0px) and (max-width : 320px) {
 
-  /*Style*/
-  .prof {
-    display: flex;
-    justify-content: center;
-
-    border: 0px solid red;
-    width: 33.34%;
-    font-size: 14px;
-  }
-
-  .jof {
-
-    font-size: 14px;
-    display: flex;
-    justify-content: left;
-    padding: 10px;
-    border: 0px solid red;
-    width: 33.34%;
-  }
-
-  .al {
-    border: 0px solid red;
-    width: 33.34%;
-  }
-}
 
 .section3 {
   height: 12vh;
@@ -155,36 +122,6 @@ body {
   color: rgba(0, 132, 255, 0.757) !important;
 }
 
-/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
-@media screen and (min-width: 1024px) {
-
-  /*Style*/
-  .center {
-    width: 80%;
-  }
-
-
-
-}
-
-/*###Tablet(medium)###*/
-@media screen and (min-width : 768px) and (max-width : 1023px) {
-
-  /*Style*/
-  .center {
-    width: 100%;
-  }
-}
-
-/*### Smartphones (portrait and landscape)(small)### */
-@media screen and (min-width : 0px) and (max-width : 767px) {
-
-  /*Style*/
-  .center {
-    width: 100%;
-  }
-}
-
 .textcolor {
   color: black;
 }
@@ -207,13 +144,8 @@ body {
 
 
 
-
-
 .accordion {
   border: none;
-  box-sizing: border-box;
-
- padding-bottom: 90px;
 }
 
 .accordion-item {
@@ -224,7 +156,7 @@ body {
 /* Set the default state of the accordion */
 .accordion-item .accordion-content {
   display: none;
-  height: 0;
+
 }
 
 /* Add styles for the accordion header */
@@ -252,6 +184,7 @@ body {
 /* Add active styles for the accordion header */
 .accordion-header.active {
   background-color: rgba(17, 14, 14, 0.885);
+  outline: none;
 }
 
 /* Add styles for the accordion content */
@@ -259,20 +192,17 @@ body {
   padding: 18px;
   background-color: rgba(17, 14, 14, 0.885);
   color: white;
+  overflow: hidden;
   transition: max-height 0.4s ease;
-  max-height: 0;
-
+  outline: none;
 }
 
 /* Add active styles for the accordion content */
 .accordion-item.active .accordion-content {
   display: block;
-  height: auto;
-  /* allow the height to expand as needed */
-  transition: height 0.4s ease;
-  /* add transition effect for smooth animation */
-  max-height: 1000px;
-  /* set the same max-height value as the inactive state */
+  max-height: 500px;
+  /* set a maximum height for the content to transition to */
+  
 }
 
 /* Add a collapse icon to the right of the accordion header */
@@ -314,6 +244,7 @@ body {
 
 
 
+
 .boxy1 {
   display: flex;
   /* flex-wrap: wrap; */
@@ -341,4 +272,63 @@ body {
   color: white;
   font-size: 12px;
   text-align: center;
+}
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px) {
+
+  /*Style*/
+  .center {
+    width: 80%;
+  }
+
+
+
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+
+  /*Style*/
+  .center {
+    width: 100%;
+  }
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px) {
+
+  /*Style*/
+  .center {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 320px) {
+
+  /*Style*/
+  .prof {
+    display: flex;
+    justify-content: center;
+
+    border: 0px solid red;
+    width: 33.34%;
+    font-size: 14px;
+  }
+
+  .jof {
+
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    border: 0px solid red;
+    width: 33.34%;
+  }
+
+  .al {
+    border: 0px solid red;
+    width: 33.34%;
+  }
 }

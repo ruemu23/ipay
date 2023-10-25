@@ -1,7 +1,7 @@
 body {
 
   background-color: white;
-  background-image: url(/images/blackme.jpeg);
+  background-image: url(../images/blackme.jpeg);
   background-size: cover;
 
 }
@@ -26,7 +26,7 @@ body {
 
 .mylogo {
 
-  background-image: url(/images/default-removebg-preview.png);
+  background-image: url(../images/default-removebg-preview.png);
   background-size: cover;
   background-position: center center;
   border: 0px solid red;
@@ -67,7 +67,7 @@ body {
 
 .flags {
 
-  background-image: url(/images/usa-flag-png-large.png);
+  background-image: url(../images/usa-flag-png-large.png);
   background-size: cover;
   background-position: center center;
   border: 0px solid yellow;
@@ -173,7 +173,7 @@ body {
 .iflag1 {
 
   border-radius: 50%;
-  background-image: url(/images/usa-flag-png-large.png);
+  background-image: url(../images/usa-flag-png-large.png);
   background-size: cover;
   background-position: center center;
 }
@@ -181,7 +181,7 @@ body {
 .iflag2 {
 
   border-radius: 50%;
-  background-image: url(/images/kenya-flag-png-large.png);
+  background-image: url(../images/kenya-flag-png-large.png);
   background-size: cover;
   background-position: center center;
 }
@@ -189,7 +189,7 @@ body {
 .iflag3 {
 
   border-radius: 50%;
-  background-image: url(/images/zambia-flag-png-large.png);
+  background-image: url(../images/zambia-flag-png-large.png);
   background-size: cover;
   background-position: center center;
 }
@@ -197,7 +197,7 @@ body {
 .iflag4 {
 
   border-radius: 50%;
-  background-image: url(/images/south-africa-flag-png-large.png);
+  background-image: url(../images/south-africa-flag-png-large.png);
   background-size: cover;
   background-position: center center;
 }
@@ -205,7 +205,7 @@ body {
 .iflag5 {
 
   border-radius: 50%;
-  background-image: url(/images/guinea-flag-png-xl.png);
+  background-image: url(../images/guinea-flag-png-xl.png);
   background-size: cover;
   background-position: center center;
 }
@@ -213,7 +213,7 @@ body {
 .iflag6 {
 
   border-radius: 50%;
-  background-image: url(/images/cameroon-flag-png-large.png);
+  background-image: url(../images/cameroon-flag-png-large.png);
   background-size: cover;
   background-position: center center;
 }
@@ -221,7 +221,7 @@ body {
 .iflag7 {
 
   border-radius: 50%;
-  background-image: url(/images/mozambique.png);
+  background-image: url(../images/mozambique.png);
   background-size: cover;
   background-position: center center;
 }
@@ -229,7 +229,7 @@ body {
 .iflag8 {
 
   border-radius: 50%;
-  background-image: url(/images/sierra-leone-flag-png-large.png);
+  background-image: url(../images/sierra-leone-flag-png-large.png);
   background-size: cover;
   background-position: center center;
 }
@@ -237,7 +237,7 @@ body {
 .iflag9 {
 
   border-radius: 50%;
-  background-image: url(/images/rwanda.png);
+  background-image: url(../images/rwanda.png);
   background-size: cover;
   background-position: center center;
 }
@@ -245,7 +245,7 @@ body {
 .iflag10 {
 
   border-radius: 50%;
-  background-image: url(/images/english.png);
+  background-image: url(../images/english.png);
   background-size: cover;
   background-position: center center;
 }

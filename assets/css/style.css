@@ -6,7 +6,7 @@
 
 body {
     background-color: rgba(89, 176, 176, 0.734) !important;
-    background-image: url(/images/blackme.jpeg);
+    background-image: url(../images/blackme.jpeg);
     background-size: cover;
 }
 
@@ -33,7 +33,7 @@ body {
 .mylogo {
     height: 60%;
     width: 50%;
-    background-image: url(/images/default-removebg-preview.png);
+    background-image: url(../images/default-removebg-preview.png);
     background-size: cover;
     background-position: center center;
     border: 0px solid red;

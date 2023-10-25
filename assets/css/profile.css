@@ -1,0 +1,318 @@
+body {
+
+    background-color: white;
+    background-image: url(../images/blackme.jpeg);
+    background-size: cover;
+    
+  } 
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh; /* ensure the container takes up at least the full viewport height */
+    justify-content: space-between;
+  }
+  .bottom-div {
+    margin-top: auto; /* push the div to the bottom of the container */
+  }
+  .sugar{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .check1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px solid red;
+    height: 40vh;
+    /* background-color: black; */
+    background-color: rgb(6, 5, 5, 1);
+   color: white;
+   gap: 2%;
+   z-index: 4;
+  
+   
+   
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+ 
+  .prof{
+    display: flex;
+    align-items: center;
+    border: 0px solid red;
+    height: 8%;
+  }
+  .wrapme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 66%;
+    border: 0px solid green;
+   
+    
+  }
+  .mylogo{
+  
+    width: 40%;
+    height: 100%;
+    
+    
+ 
+    background-image: url(../images/profile-icon-white-22.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid red;
+    
+
+   
+    
+}
+.myname{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    border: 0px solid yellow; 
+}
+.detail{
+    display: flex;
+    align-items: center;
+    height: 6%;
+    border: 0px solid green;  
+    cursor: pointer;
+}
+
+.check2{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 1.5rem;
+    z-index: 2;
+
+  }
+  .heady{
+    margin-bottom: 10px;
+  }
+  .splitter{
+    display: flex;
+    height: 14%;
+    
+  }
+  .fme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 10px;
+   border: 0px solid blue;
+   background-color: rgb(41, 40, 40);
+   font-size: 2rem;
+   color: rgba(0, 255, 217, 0.678);
+  }
+  .sme{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 0px solid green;
+    padding-left: 1rem;
+  }
+  .tme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border: 0px solid green;
+    /* font-size: 2rem; */
+  
+    
+    
+  }
+
+  .defir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid yellow;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    
+  }
+  .checkme{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    height: 13vh;
+    padding: 10px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    
+    z-index: 2;
+  }
+  .splitters{
+    display: flex;
+    height: 100%;
+    
+  }
+  .fmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 10px;
+   border: 0px solid blue;
+   background-color: rgba(84, 58, 58, 0.448);
+   font-size: 2rem;
+   color: red;
+  }
+  .smes{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 0px solid green;
+    padding-left: 1rem;
+    color: red;
+    font-size: 1.2rem;
+  }
+
+  .fav{
+    display: flex;
+   
+    justify-content: space-between;
+    height: 5vh;
+    border: 0px solid yellow;
+    color: white;
+  }
+  .boxy{
+    display: flex;
+    gap: 5px;
+    height: 12vh;
+    border: 0px solid blue;
+    margin-bottom: 5px;
+  }
+  .boxy > a {
+    height: 100%;
+    width: 25%;
+    border: 0px solid rgba(150, 147, 147, 0.942);
+    text-decoration: none;
+    background-color: rgba(66, 64, 64, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+ justify-content: center;
+  }
+ 
+
+
+
+
+
+
+ 
+ 
+  body{
+    position: relative;
+    
+  } 
+  #hiders{
+    display: none;
+ 
+  } 
+  .hide{
+    display: none;
+  }
+  #brownmenu{
+    position: fixed;
+    top:  50%;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    
+   
+     }
+     .clro{
+      color: white;
+     }
+     .bvn{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 15%;
+      border: 0px solid blue;
+     }
+     .writeme{
+    
+      color: white;
+      font-size: 18px;
+     }
+     .blueme{
+    
+      color: rgb(79, 79, 244);
+      font-size: 16px;
+     }
+
+     .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* transparent black */
+      display: none; /* initially hidden */
+      z-index: 999; /* put it on top of everything else */
+    }
+
+
+
+
+  
+ 
+     
+  
+  .section3{
+    height: 12vh;
+    border: 0px solid red; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(26, 25, 25, 1);
+    
+    z-index: 4;
+   
+}
+
+.section3 > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icons{
+    font-size: 20px;
+}
+.texter{
+    font-size: 14px;  
+}
+.rep{
+    color:rgba(0, 132, 255, 0.757)!important;
+}
+   

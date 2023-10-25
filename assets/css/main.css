@@ -1,0 +1,1371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: white;
+    background-image: url(../images/blackme.jpeg);
+    background-size: cover;
+
+}
+
+.page-container {
+    flex: 1;
+
+}
+
+.bottom-div {
+    margin-top: auto;
+    /* push the div to the bottom of the container */
+}
+
+.sugar {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+
+.check1 {
+    display: flex;
+    border: 0px solid red;
+    height: 60px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.check1k {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+    border-bottom: 2px solid white;
+
+    background-color: rgb(49, 46, 46);
+    color: white;
+    z-index: 4;
+
+
+    padding: 20px;
+    /* justify-content: space-between; use when want the reverse direction */
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.icc {
+    font-size: 20px;
+    border: 0px solid red;
+    flex: 0;
+
+}
+
+.prof {
+
+    border: 0px solid red;
+    font-size: 20px;
+    flex: 1;
+    /* This makes the prof element take up the remaining space and be centered */
+    text-align: center;
+    /* Center the text horizontally */
+
+}
+
+
+
+
+.mylogo {
+
+    background-image: url(../images/default-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    border: 0px solid blue;
+    width: 80px;
+    order: 1;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.check2 {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    /* min-height: 80vh; */
+    padding: 10px;
+
+
+}
+
+
+.check2k {
+    border: 0px solid red;
+    padding-bottom: 30px;
+}
+
+.acct {
+    margin: 20px 20px 20px;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+
+    gap: 6px;
+}
+
+.prem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(34, 106, 240);
+
+}
+
+.prem {
+    font-size: 13px;
+
+}
+
+.avail {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.634);
+    font-size: 15px;
+}
+
+.maya {
+    display: flex;
+    gap: 12px;
+}
+
+.accto {
+
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.my1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 0px solid red;
+    border-radius: 5px;
+    background-color: #04040561;
+    color: rgb(0, 94, 255);
+}
+
+.my2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 0px solid red;
+    border-radius: 50%;
+    background-color: #04040561;
+    color: rgb(0, 94, 255);
+}
+
+.my3>i,
+.my1>i {
+    font-size: 25px;
+}
+
+.mycol {
+    color: white;
+    font-size: 12px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 0px solid black;
+    margin: auto auto;
+    padding: 20px;
+
+
+    box-sizing: border-box;
+}
+
+.byes {
+    display: block;
+    font-size: 16px;
+    border: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 30px 14px 30px;
+
+    background-color: #f16c25f0;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.fav {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid yellow;
+    color: white;
+}
+
+.boxy {
+    display: flex;
+    gap: 5px;
+    height: 100px;
+    border: 0px solid blue;
+    margin-bottom: 5px;
+}
+
+.boxy>a {
+    flex: 1;
+    /* Equal width for all columns */
+    border: 0px solid rgba(150, 147, 147, 0.942);
+    text-decoration: none;
+    background-color: rgba(66, 64, 64, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+
+.dof {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tap {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+
+}
+
+.flake {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    height: 40%;
+}
+
+.flake2 {
+    color: white;
+    font-size: 14px;
+    border: 0px solid yellow;
+    height: 60%;
+    background-color: rgba(44, 42, 42, 0.922);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.feat {
+    height: 5vh;
+    border: 0px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whit {
+    color: white;
+}
+
+.mor {
+    text-decoration: none;
+}
+
+.advert {
+    height: 27vh;
+    border: 0px solid blue;
+    /* background-image: url(/images/payment_options.webp); */
+
+    border-radius: 10px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: calc(100% * 11);
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: 150px;
+    background-size: contain;
+    background-position: center center;
+}
+
+.index {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+.topw2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid green;
+
+    color: white;
+    order: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+.section3 {
+    height: 60px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(26, 25, 25, 0.898);
+
+
+
+}
+
+.section3>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    font-size: 20px;
+}
+
+.texter {
+    font-size: 14px;
+}
+
+.rep {
+    color: rgba(0, 132, 255, 0.757) !important;
+}
+
+.baba {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.baba>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(101, 98, 98);
+    color: white;
+    border-radius: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.accordion {
+    background-color: rgb(14, 14, 14);
+    color: rgb(216, 210, 210);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(75, 71, 71);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(42, 38, 38);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: white;
+  }
+
+.checkmes {
+    display: flex;
+    justify-content: center;
+    border: 0px solid blue;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 1.5rem;
+    z-index: 2;
+    font-size: small
+}
+
+.containme {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+}
+
+.dollar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: teal;
+
+}
+
+.flow {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flow1 {
+    color: rgb(55, 101, 227);
+    font-size: 15px;
+    ;
+}
+
+.flow2 {
+    color: rgb(182, 186, 206);
+    font-size: 12px;
+    ;
+}
+
+.sele {
+    height: 55px;
+    background-color: #77757578;
+    color: white;
+    padding: 8px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 5"%3e%3cpath d="M0 0l4 4 4-4z" fill="%23ccc"/%3e%3c/svg%3e');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+}
+
+select::-ms-expand,
+select::-webkit-outer-spin-button {
+    display: none;
+}
+
+select option:before {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #ccc;
+}
+
+.acctk {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.acctk1 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prem1k {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.premk {
+    font-size: 11px;
+}
+
+.limi {
+    font-size: 14px;
+    color: rgb(160, 155, 155);
+}
+
+.limi1 {
+    color: rgba(67, 125, 241, 0.989);
+}
+
+.acct1 {
+    margin: 20px 20px -10px;
+    padding: 20px 0px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+progress {
+    width: 100%;
+    /* set the width of the progress bar */
+    height: 20px;
+    /* set the height of the progress bar */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eee;
+    /* set the background color of the progress bar */
+    border-radius: 5px;
+    /* add border radius to the progress bar */
+}
+
+progress::-webkit-progress-value {
+    background-color: #0077FF;
+    /* set the color of the progress bar fill */
+    border-radius: 5px;
+    /* add border radius to the progress bar fill */
+
+}
+
+.dai {
+    font-size: 12px;
+    color: rgb(198, 191, 191);
+}
+
+.mon {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgba(67, 125, 241, 0.989);
+}
+
+.acct112 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    ;
+}
+
+.acctk1p {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loanme {
+    color: white;
+    font-size: 12px;
+}
+
+.check21 {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    height: auto;
+    padding: 10px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    /* margin-bottom: 1.5rem; */
+    z-index: 2;
+    margin: 10px 0;
+
+
+}
+
+.check2g {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    height: auto;
+    padding: 10px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 1.5rem;
+    z-index: 2;
+
+}
+
+.heady {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.splitter {
+    display: flex;
+    height: 50px;
+
+}
+
+.acctnum {
+    font-weight: bold;
+}
+
+.saving {
+    font-size: 12px;
+}
+
+.fme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 10px;
+    border: 0px solid blue;
+    background-color: rgb(41, 40, 40);
+    font-size: 1.2rem;
+    color: rgba(0, 255, 217, 0.678);
+}
+
+.sme {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 0px solid green;
+    padding-left: 1rem;
+    color: white;
+}
+
+.tme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border: 0px solid green;
+    color: white;
+    /* font-size: 2rem; */
+
+
+
+}
+
+.acctky {
+    margin: 10px 10px;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fre {
+    color: white;
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+.fben {
+    color: teal;
+
+}
+
+.ggg {
+    display: flex;
+    gap: 10px;
+    margin: 10px 10px;
+}
+
+.ggg>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.entr {
+    text-align: center;
+    color: white;
+
+
+}
+
+.dig {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    color: rgba(152, 148, 148, 0.88);
+    border: 0px solid blue;
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    border: 0px solid green;
+}
+
+.circular-input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgb(77, 77, 79) !important;
+    border: 0px solid rgb(74, 96, 235);
+    ;
+    outline: none;
+    padding: 0;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea {
+    font-size: 16px;
+    max-height: 100px;
+}
+
+
+input:focus {
+    outline: none !important;
+}
+
+
+.starter {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    border: 0px solid blue;
+    color: rgb(74, 96, 235);
+    font-size: 18px;
+}
+
+.fgc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border: 0px solid yellow;
+
+}
+
+.yell {
+    color: rgba(255, 154, 71, 0.959);
+}
+
+.myrest {
+    text-decoration: none;
+    color: rgb(74, 96, 235);
+}
+
+.keyboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+    height: 50%;
+    width: 100%;
+    border: 0px solid green;
+}
+
+.rowme {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.hidden {
+    visibility: hidden;
+    display: block;
+}
+
+
+.keyboard-button {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-bottom: 1px solid rgb(77, 77, 79);
+    background-color: rgba(0, 0, 0, 0.749);
+    ;
+    font-size: 20px;
+    color: rgb(57, 134, 235);
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+
+}
+
+.section3 {
+    height: 60px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(26, 25, 25, 1);
+
+    z-index: 4;
+
+}
+
+.section3>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    font-size: 20px;
+}
+
+.texter {
+    font-size: 14px;
+}
+
+.rep {
+    color: rgba(0, 132, 255, 0.757) !important;
+}
+
+.check2kc {
+    border: 0px solid red;
+    padding-bottom: 90px;
+}
+
+.frek {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+
+.fbenk {
+    color: rgba(67, 125, 241, 0.989);
+}
+
+.gggo {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-around;
+    gap: 1%;
+    margin: 20px 20px -10px;
+    border: 0px solid red;
+}
+
+.acct11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 2px;
+    border: 0px solid rgb(184, 184, 194);
+}
+
+.acct11>div {
+
+  font-size: 14px;
+    border: 0px solid blue;
+}
+
+.option {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Add opacity to selected option */
+.selected {
+    opacity: 0.7;
+}
+
+/* Add background to selected option */
+.selected::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.imag1 {
+
+
+
+
+
+    background-image: url(/assets/images/MTN-logo-459AAF9482-seeklogo.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid red;
+    height: 80px;
+    width: 80px;
+
+
+}
+
+.imag2 {
+
+
+
+
+
+    background-image: url(../images/Airtel_Africa_logo.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid red;
+    height: 80px;
+    width: 80px;
+
+}
+
+.imag3 {
+
+
+
+
+
+    background-image: url(../images/Glo-Logo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid red;
+    height: 80px;
+    width: 80px;
+
+
+}
+
+.imag4 {
+
+
+
+
+
+    background-image: url(../images/9Mobile-Telecom-Logo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid red;
+    height: 80px;
+    width: 80px;
+
+
+}
+
+.sel{
+    color: white;
+    font-size: 14px;
+  }
+  .quickme{
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    gap: 10px 10px;
+    border: 0px solid red;
+   
+  }
+  .quickme > a {
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40px;
+    background-color: rgba(78, 76, 76, 0.784);
+    border-radius: 3px;
+  }
+  .heady1{
+    font-size: small;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .check2m {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    /* min-height: 80vh; */
+    padding: 10px;
+    padding-bottom: 80px;
+
+
+
+}
+.heady2{
+    font-size: small;
+    margin: 20px 0;
+    color: white;
+  }
+
+  .centeroo{
+    padding-bottom: 60px;
+  }
+  .acctbb{
+    margin: 20px auto;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    background-color:  rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+   
+}
+.avail{
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.634);
+    font-size: 14px;
+}
+.avail1{
+   
+    text-align: center;
+    color: rgba(255, 255, 255, 0.634);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.finland{
+    color: white;
+    padding: 20px;
+    background-color: rgb(44, 42, 42);
+    border-radius: 6px;
+  }
+  .ogh{
+    display: flex;
+    justify-content: space-between;
+  }
+  .doe{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: rgb(0, 145, 255);
+  }
+
+  .acctok {
+
+    padding: 10px;
+    background-color: rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+  
+}
+  .mayak {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.my1k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 0px solid red;
+    border-radius: 5px;
+    background-color: #04040561;
+    color: rgb(0, 94, 255);
+}
+
+.my2k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my3k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 0px solid red;
+    border-radius: 50%;
+    background-color: #04040561;
+    color: rgb(0, 94, 255);
+}
+
+.my3k>i,
+.my1k>i {
+    font-size: 25px;
+}
+
+
+.acctx{
+    margin: 10px 10px;
+    padding: 20px;
+    background-color:  rgba(78, 76, 76, 0.784);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.prem1x{
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+.premx{
+    font-size: 13px;
+
+}
+.availx{
+    margin: 10px 20px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.634);
+    font-size: 13px;
+}
+.acctox{
+ 
+    padding: 10px;
+    background-color:  rgba(78, 76, 76, 0.784);
+    color: white;
+   
+    display: flex;
+    justify-content: space-between;
+  
+}
+.mayax{
+    display: flex;
+    gap: 8px;
+    width: 75%;
+}
+.my1x{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 55px;
+   width: 20%;
+    border: 0px solid red;
+    border-radius: 5px;
+    background-color: #04040561;
+    color: rgb(0, 94, 255);
+}
+.my2x{
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   font-size: 14px;
+   width: 80%;
+}
+.my3x{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+  
+   width: 25%;
+   font-size: 14px;
+   border: 0px solid red;
+}
+.mycolor{
+    color: green;
+    }
+    .mycolor1{
+        color: red; 
+    }
+    .check1kh {
+        display: flex;
+   flex-direction: column;
+     
+      border: 0px solid red;
+    
+        background-color: rgb(49, 46, 46);
+        color: white;
+        z-index: 4;
+    
+    gap: 10px;
+    padding: 5px;
+       
+        /* justify-content: space-between; use when want the reverse direction */
+    }
+    .myava {
+        font-size: 12px;
+      }
+      
+      .mybal {
+        font-size: 20px;
+      }
+
+      .boxy1 {
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 5px;
+        height: 100px;
+        border: 0px solid blue;
+        width: 100%;
+        align-items: center;
+      
+      }
+      
+      .boxy1>a {
+        height: 80px;
+        width: 25%;
+        border: 0px solid rgba(150, 147, 147, 0.942);
+        text-decoration: none;
+        background-color: rgba(16, 15, 15, 0.85);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .dof1 {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+      }
+/* Smartphones (portrait and landscape)(small) */
+@media screen and (max-width: 767px) {
+    /* Styles for small screens */
+
+    .center {
+        width: 100%;
+    }
+
+}
+
+/* Tablets (medium) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Styles for medium screens */
+    .center {
+        width: 100%;
+    }
+
+}
+
+/* Desktops, big landscape tablets, and laptops (Large, Extra large) */
+@media screen and (min-width: 1024px) {
+
+    /* Styles for large screens */
+    .sugar {
+
+        padding-bottom: 10px;
+    }
+
+    .advert {
+        display: none;
+    }
+
+    .center {
+        width: 100%;
+    }
+}
